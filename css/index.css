@@ -1,0 +1,22 @@
+
+h1{
+    color: #ff667d;
+    font-size: 20px;
+}
+h5{
+    color:#ff667d;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    padding: 20px;
+}
+.jumbotron{
+    padding: 0;
+    padding-left: 0;
+}
