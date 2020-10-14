@@ -1,9 +1,7 @@
 
-
 h2{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    /* color: white; */
 }
 
 div.form {
@@ -19,7 +17,7 @@ form {
 }
 
 .jumbotron {
-    background-color:#f2f2f2;
+    background-color:#ffefef;
 }
 
 h1{
@@ -28,6 +26,7 @@ h1{
     font-weight: bold;
     text-align: center;
     font-family: 'Arapey', serif;
+    margin-bottom: 30px;
 }
 
 hr{
@@ -56,15 +55,18 @@ p {
 
 
 .btn {
+    background-color: rgba(128, 128, 128, 0.473);
     width: 200px;
     font-weight: bold;
     letter-spacing: 3px;
-    background-color: purple;
-    border: purple;
+    border: #ff9999;
     color: white;
     cursor: pointer;
     height: 50px;
 }
+ .btn:hover {
+     background-color:  #ff9999;
+ }
 
 input[type=text]{
     border: 1px solid black;
