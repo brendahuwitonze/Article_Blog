@@ -14,7 +14,7 @@ body{
     padding: 1px;
     color: #fff;
 }
-.container{
+.headerContent{
     text-align: center;
     margin-top: 150px;
     color: #fff;
@@ -46,12 +46,20 @@ h3{
     height: 100vh;
 }
 
+/**********************************/
 
-
-h2{
+.authBlog{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    /* color: white; */
+    color: grey;
+}
+
+
+
+.blogPos{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey; 
 }
 
 div.form {
@@ -67,15 +75,19 @@ form {
 }
 
 .jumbotron {
-    background-color:#f2f2f2;
+    background-color:#ffefef;
+    width: 800px;
+    margin: auto;
 }
 
-h1{
+.artic{
     font-size: 55px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Arapey', serif;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    margin-bottom: 30px;
 }
 
 hr{
@@ -92,7 +104,7 @@ form input[required=required]:after {
     content: " *";
 }
 
-p {
+.form p {
     font-family: serif;
 }
 
@@ -103,16 +115,19 @@ p {
 
 
 
-.btn {
+.thar {
+    background-color: rgba(128, 128, 128, 0.473);
     width: 200px;
     font-weight: bold;
     letter-spacing: 3px;
-    background-color: purple;
-    border: purple;
+    border: #ff9999;
     color: white;
     cursor: pointer;
     height: 50px;
 }
+ .thar:hover {
+     background-color:  #ff9999;
+ }
 
 input[type=text]{
     border: 1px solid black;
