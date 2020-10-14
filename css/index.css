@@ -1,4 +1,52 @@
 
+header{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(/home/uwase/Documents/moringa-school-projects/article-revision/images/homepage2.png);
+    background-position: center center;
+    background-size: cover;
+  height: 100vh;
+}
+
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.sicon{
+    padding: 1px;
+    color: #fff;
+}
+.container{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+   
+
+}
+.logo{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Sansita Swashed', cursive;
+    
+}
+.spanLogo{
+    color: #ffb3b3;
+}
+#blog{
+    text-align: center;
+    padding-top: 60px;
+    margin: 100px  100px;
+}
+h3{
+    padding-bottom: 40px;
+}
+.banner{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
 
 h2{
     font-weight: bold;
@@ -69,3 +117,4 @@ p {
 input[type=text]{
     border: 1px solid black;
 } 
+
