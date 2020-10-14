@@ -2,83 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Blog</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="jumbotron">
-            <h1>SUBMIT AN ARTICLE</h1>
-            <hr>
-            <br>
-            <div class="form">
-                <form>
-                    <h2>Author Detail</h2>
-                    <p> Please enter your contact details, so we can give you proper credit to this blog post.</p>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput" style="font-family: serif;">Full Name</label><span
-                            class="required">*</span>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name...">
-                    </div>
-                    <br>
+  <header id="home">
 
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1" style="font-family: serif;">Short Author
-                            Bio</label><span class="required">*</span>
-                        <textarea style=" border: 1px solid black;" class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Enter bio..."></textarea>
-                        <p> <small>Please keep it bellow 300 characters </small> </p>
-                    </div>
-                    <h2>Create a Blog Post</h2>
-                    <p>Please submit your guest blog by using the fields below.</p>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <h2 class="logo">us<span class="spanLogo">One</span></h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item active col-md-3">
+            <a class="nav-link text-white" href="#home">Home<span class="sr-only">(current)</span></a>
 
-                    <div class="form-group">
-                        <label for="formGroupExampleInput" style="font-family: serif;">Post Title</label><span
-                            class="required">*</span>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter title...">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1" style="font-family: serif;">Post
-                            Content</label><span class="required">*</span>
-                        <textarea style=" border: 1px solid black;" class="form-control" id="exampleFormControlTextarea1" rows="6"
-                            placeholder="Enter content..."></textarea>
-                        <p> <small>Please keep it bellow 250 characters</small> </p>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlFile1" style="font-family: serif;">Featured image</label><span
-                            class="required">*</span>
-                        <input type="file" class="form-control-file" id="exampleFormControlFile1" style="color: grey;">
-                        <p> <small>Please make the dimensions are (500 x 250px)</small> </p>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1" style="font-family: serif;">Post
-                            Excerpt</label><span class="required">*</span>
-                        <textarea style=" border: 1px solid black;" class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Enter excerpt...."></textarea>
-                    </div>
-                  
-                    <br>
-                    <div style="text-align: center;">
-                        <button type="submit" class="btn btn-secondary">SUBMIT</button>
-                    </div>
-                </form>
-            </div>
+          </li>
+
+          <li class="nav-item active col-md-3">
+            <a class="nav-link text-white" href="#blog">Blog</a>
+          </li>
+
+          <li class="nav-item active col-md-3">
+            <a class="nav-link text-white" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <i class="social-icon fab fa-twitter sicon"></i>
+        <i class="social-icon fab fa-facebook sicon"></i>
+        <i class="social-icon fab fa-instagram sicon"></i>
+        <i class="social-icon fas fa-envelope  sicon"></i>
+      </div>
+      <a href="form.html" class="btn btn-light">create post</a>
+    </nav>
+    <div class="headerContent">
+        <h1>WELCOME TO <span class="logo">us</span><span class="spanLogo" style="font-family: 'Sansita Swashed', cursive;">One</span> BLOG</h1>
+        <p>Create your own content with us.</p>
+        <button type="button" class="btn btn-light btn-lg"><i class="fab fa-apple "></i> READ MORE</button>
+        <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play "></i> READ
+          MORE</button>
+      </div>
+    
+
+
+  </header>
+  <section id="blog">
+    <h3>LATEST POST</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/post1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
         </div>
+      </div>
+      <div class="card">
+        <img src="images/post2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/post3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural than the first to show that
+            equal height action.</p>
+          <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
+        </div>
+      </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/index.js"></script>
+  </section>
 
 </body>
 
