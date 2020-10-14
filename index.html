@@ -6,12 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
-
 <body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>SUBMIT AN ARTICLE</h1>
+            <hr>
+            <br>
+            <div class="form">
+                <form>
+                    <h2>Author Detail</h2>
+                    <p> Please enter your contact details, so we can give you proper credit to this blog post.</p>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput" style="font-family: serif;">Full Name</label><span
+                            class="required">*</span>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name...">
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" style="font-family: serif;">Short Author
+                            Bio</label><span class="required">*</span>
+                        <textarea style="border: 1px solid black;" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Enter bio..."></textarea>
+                        <p> <small>Please keep it bellow 300 characters </small> </p>
+                    </div>
+                    <h2>Create a Blog Post</h2>
+                    <p>Please submit your guest blog by using the fields below.</p>
+
+                    <div class="form-group">
+                        <label for="formGroupExampleInput" style="font-family: serif;">Post Title</label><span
+                            class="required">*</span>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter title...">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" style="font-family: serif;">Post
+                            Content</label><span class="required">*</span>
+                        <textarea style="border: 1px solid black;" class="form-control" id="exampleFormControlTextarea1" rows="6"
+                            placeholder="Enter content..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1" style="font-family: serif;">Featured image</label><span
+                            class="required">*</span>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1" style="color: grey;">
+                        <p> <small>Please make the dimensions are (500 x 250px)</small> </p>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" style="font-family: serif;">Post
+                            Excerpt</label><span class="required">*</span>
+                        <textarea style="border: 1px solid black;" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Enter excerpt...."></textarea>
+                    </div>
+                  
+                    <br>
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-secondary">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
