@@ -1,3 +1,4 @@
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../images/homepage2.png);
     background-position: center center;
@@ -11,16 +12,19 @@ body {
 
 .sicon {
     padding: 1px;
+
     color: #fff;
+
 }
 
 .headerContent {
     text-align: center;
-    margin-top: 150px;
     color: #fff;
+
 }
 
 .logo {
+
     font-size: 30px;
     color: #fff;
     font-family: 'Sansita Swashed', cursive;
@@ -28,6 +32,7 @@ body {
 
 .spanLogo {
     color: #ffb3b3;
+
 }
 
 #blog {
