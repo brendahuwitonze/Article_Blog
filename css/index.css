@@ -1,3 +1,46 @@
+footer ul {
+    list-style-type: none;
+  }
+  .foot {
+      width:100px;
+      margin-left: -5px;
+      border: none;
+      height: 36px;
+      background-color: #ffb3b3;
+  }
+  .listul li a {
+    margin-left: 50px;
+    color:#8a8989 ;
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+  }
+  .listul li a:hover {
+    margin-left: 50px;
+    color:#f73535 ;
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+  }
+  nav li a:hover {
+    color:#3f0202 !important ;
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+  }
+  .inpFooter {
+      height:36px;
+  }
+
+  .copyright {
+    color: rgb(114, 112, 112);
+    border-top: 1px solid grey;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+   .fas {
+      color:#ffb3b3!important ;
+  }
+  .Iconss .far {
+    color:#ffb3b3 ;
+}
 
 .headerContent {
     background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../images/homepage2.png);
@@ -27,6 +70,19 @@ body {
 
 .spanLogo1 {
     color: #ffb3b3;
+    font-size: 50px!important;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+.logo2{
+
+    font-size: 40px!important;
+    color: rgb(199, 199, 199);
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.spanLogo2 {
+    color: #f37676;
     font-size: 50px!important;
     font-family: 'Sansita Swashed', cursive;
 
