@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" id="html">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,59 +11,62 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
-
-<body>
-
+<body id="body">
+    
   <header id="home">
-
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <h2 class="logo">us<span class="spanLogo">One</span></h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg fixed-top">
+      <h2 class=" navbar-brand logo text-white">us<span class="spanLogo">One</span></h2>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+    
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto ">
-          <li class="nav-item active col-md-3">
-            <a class="nav-link text-white" href="#home">Home<span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active col-md-3">
+          <li class="nav-item">
             <a class="nav-link text-white" href="#blog">Blog</a>
           </li>
-          <li class="nav-item active col-md-3">
-            <a class="nav-link text-white" href="#contact">contact</a>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
           </li>
+          
         </ul>
+        <div class="form-inline my-2 col-md-3 ">
+          <i class="nav-item social-icon fab fa-twitter sicon" ></i>
+       <i class="nav-item social-icon text-white fab fa-facebook sicon" ></i>
+       <i class="nav-item social-icon text-white fab fa-instagram sicon" ></i>
+       <i class="nav-item social-icon text-white fas fa-envelope  sicon" ></i>
+       <a href="#blog" class="nav-item  active btn btn-light">create post</a>
+        </div>
       </div>
-      <div class="col-md-2 ml-auto">
-        <i class="social-icon fab fa-twitter sicon"></i>
-        <i class="social-icon fab fa-facebook sicon"></i>
-        <i class="social-icon fab fa-instagram sicon"></i>
-        <i class="social-icon fas fa-envelope  sicon"></i>
-      </div>
-      <a href="#formpage" id="create" class="btn btn-light ml-auto">create post</a>
     </nav>
-    <div class="headerContent">
-        <h1>WELCOME TO <span class="logo">us</span><span class="spanLogo" style="font-family: 'Sansita Swashed', cursive;">One</span> BLOG</h1>
-        <p>Create your own content with us.</p>
-        <button type="button" class="btn btn-light btn-lg"><i class="fab fa-apple "></i> READ MORE</button>
-        <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play "></i> READ
-          MORE</button>
-      </div>
+
+   <div class="headerContent">
+      <h1>WELCOME TO <span class="">us</span><span class="spanLogo">One</span>BLOG</h1>
+      <p>Create your own content with us.</p>
+      <button type="button" class="btn btn-light btn-lg"><i class="fab fa-apple "></i> READ MORE</button>
+      <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play "></i> READ MORE</button>
+   </div>
+   
+    
+
+
   </header>
   <section id="blog">
-    <h3>LATEST POST</h3>
-    <div class="row posts justify-content-center">
-      <div class="card col-lg-3 m-3">
+    <h3>LATEST POSTS</h3>
+    <div class="card-deck">
+      <div class="card">
         <img src="images/post1.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
             content. This content is a little bit longer.</p>
-            <p class="text-small text-muted text-left">Author: <span></span></p>
-          <a href="#" class="btn colorbtn text-white"  style="background-color: #ffb3b3;">VIEW</a>
+          <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
         </div>
       </div>
-      <div class="card col-lg-3 m-3">
+      <div class="card">
         <img src="images/post2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -72,7 +74,7 @@
           <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
         </div>
       </div>
-      <div class="card col-lg-3 m-3">
+      <div class="card">
         <img src="images/post3.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -81,83 +83,65 @@
           <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
         </div>
       </div>
-    </div>
-  </section>
-  <div id="details">
-    <h2></h2>
-  </div>
-  
-
-  <div class="container" id="formpage" style="display: none;">
-    <div class="jumbotron">
-        <h1 class="artic">CREATE AN ARTICLE</h1>
-        <hr>
-        <br>
-        <div class="form">
-            <form>
-                <h2 class="authBlog">Author Detail</h2>
-                <p> Please enter your contact details, so we can give you proper credit to this blog post.</p>
-                <div class="form-group">
-                    <label for="author" style="font-family: serif;">Full Name</label><span
-                        class="required">*</span>
-                    <input type="text" class="form-control" id="author" placeholder="Enter name...">
-                </div>
-                <br>
-
-                <div class="form-group">
-                    <label for="bio" style="font-family: serif;">Short Author
-                        Bio</label><span class="required">*</span>
-                    <textarea style="border: 1px solid black;" class="form-control" id="bio"
-                        rows="3" placeholder="Enter bio..."></textarea>
-                    <p> <small>Please keep it bellow 300 characters </small> </p>
-                </div>
-                <h2 class="blogPos">Create a Blog Post</h2>
-                <p>Please submit your guest blog by using the fields below.</p>
-
-                <div class="form-group">
-                    <label for="title" style="font-family: serif;">Post Title</label><span
-                        class="required">*</span>
-                    <input type="text" class="form-control" id="title" placeholder="Enter title...">
-                </div>
-                <div class="form-group">
-                    <label for="detail" style="font-family: serif;">Post
-                        Content</label><span class="required">*</span>
-                    <textarea style="border: 1px solid black;" class="form-control" id="detail"
-                        rows="6" placeholder="Enter content..."></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="image" style="font-family: serif;">Featured image</label><span
-                        class="required">*</span>
-                    <input type="file" class="form-control-file" id="image" style="color: grey;">
-                    <p> <small>Please make the dimensions are (500 x 250px)</small> </p>
-                </div>
-              
-                <br>
-                <div style="text-align: center;">
-                    <a type="button" class="thar" id="button" class="btn btn-secondary">SUBMIT</a>
-                </div>
-            </form>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/post4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
+          </div>
         </div>
+        <div class="card">
+          <img src="images/post5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/post6.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural than the first to show that equal height action.</p>
+            <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
+          </div>
+        </div>
+      </div>
+  </section>
+<footer>
+  <div class="footerContent">
+    <div class="row">
+    <div class="col md-3">
+      <h3>About</h3>
+      <p></p>
     </div>
-</div>
-
-
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-storage.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>  
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="js/index.js"></script>
-
+    <div class="col md-3">
+      <h3>Nagivation</h3>
+      <p></p>
+    </div>
+    <div class="col md-3">
+      <h3>Resources</h3>
+      <p></p>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col md-3">
+        <h3>Follow us</h3>
+        <p></p>
+      </div>
+      <div class="col md-3">
+        <h3>Our Apps</h3>
+        <p></p>
+      </div>
+      <div class="col md-3">
+        <h3>Subscribe</h3>
+        <p></p>
+      </div>
+      </div>
+  </div>
+</footer>
 </body>
 
 </html>

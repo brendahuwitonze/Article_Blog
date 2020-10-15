@@ -1,44 +1,51 @@
 
-header{
-    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(../images/homepage2.png);
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../images/homepage2.png);
     background-position: center center;
     background-size: cover;
-  height: 100vh;
+    height: 100vh;
 }
 
-
-body{
+body {
     font-family: 'Kumbh Sans', sans-serif;
 }
-.sicon{
+
+.sicon {
     padding: 1px;
+
     color: #fff;
-}
-.headerContent{
-    text-align: center;
-    margin-top: 150px;
-    color: #fff;
-   
 
 }
-.logo{
+
+.headerContent {
+    text-align: center;
+    color: #fff;
+
+}
+
+.logo {
+
     font-size: 30px;
     color: #fff;
     font-family: 'Sansita Swashed', cursive;
-    
 }
-.spanLogo{
+
+.spanLogo {
     color: #ffb3b3;
+
 }
-#blog{
+
+#blog {
     text-align: center;
     padding-top: 60px;
-    margin: 100px  100px;
+    margin: 100px 100px;
 }
-h3{
+
+h3 {
     padding-bottom: 40px;
 }
-.banner{
+
+.banner {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -48,18 +55,18 @@ h3{
 
 /**********************************/
 
-.authBlog{
+.authBlog {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    color: grey;
+    color: #fc9898;
+    font-size: 25px;
 }
 
-
-
-.blogPos{
+.blogPos {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    color: grey; 
+    color: #fc9898;
+    font-size: 25px;
 }
 
 div.form {
@@ -75,22 +82,32 @@ form {
 }
 
 .jumbotron {
-    background-color:#ffefef;
-    width: 800px;
-    margin: auto;
+    background-color: #f2f2f2;
+    width: 540px;
+    margin: auto; 
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 
-.artic{
-    font-size: 45px;
+#backgr{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://res.cloudinary.com/zilfa/image/upload/v1602698168/lum3n--RBuQ2PK_L8-unsplash_iqoksg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+}
+
+.artic {
+    font-size: 40px;
     letter-spacing: 2px;
     font-weight: bold;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: grey;
+    color: gray;
     margin-bottom: 30px;
 }
 
-hr{
+hr {
     background-color: grey;
 }
 
@@ -113,10 +130,8 @@ form input[required=required]:after {
     font-family: initial;
 }
 
-
-
 .thar {
-    background-color: rgba(128, 128, 128, 0.473);
+    background-color: #f8a6a6;
     width: 200px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -124,17 +139,13 @@ form input[required=required]:after {
     color: white;
     cursor: pointer;
     height: 50px;
-}
- .thar:hover {
-     background-color:  #ff9999;
- }
-
-input[type=text]{
-    border: 1px solid black;
-} 
-.card-img-top {
-    width: 100%;
-    height: 10vw;
-    object-fit: cover;
+    border-radius: 5px;
 }
 
+.thar:hover {
+    background-color: rgb(163, 159, 159);
+}
+
+input[type=text] {
+    border: 1px solid rgb(163, 160, 160);
+}
