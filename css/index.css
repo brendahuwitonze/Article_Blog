@@ -216,6 +216,7 @@ form input[required=required]:after {
 input[type=text] {
     border: 1px solid rgb(163, 160, 160);
 }
+
 .card-img-top {
     width: 100%;
     height: 10vw;
