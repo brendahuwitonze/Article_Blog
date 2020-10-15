@@ -85,4 +85,14 @@
         });
     });
 
+    $('#create').click(function() {
+        $('#formpage').show();
+        $("#home").hide();
+        $("#blog").hide();
 
+    });
+    $('#icon1').click(function() {
+        $('.icon1').show();
+        $("#icon1").hide();
+
+    });
