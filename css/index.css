@@ -1,26 +1,45 @@
 
-header{
-    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(../images/homepage2.png);
+#html,#body,#home,
+.page{
+  overflow-x: hidden;
+  height: 100%;
+  scroll-behavior: smooth;
+
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(/home/uwase/Documents/moringa-school-projects/article-revision/images/homepage2.png);
     background-position: center center;
     background-size: cover;
-  height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
+    height: 100vh;
 }
-
+.bg{
+    background-color: #ee8888;
+}
 
 body{
     font-family: 'Kumbh Sans', sans-serif;
 }
 .sicon{
-    padding: 1px;
+    padding: 0.7px;
+    margin: 8px;
     color: #fff;
+
 }
 .headerContent{
     text-align: center;
-    margin-top: 150px;
     color: #fff;
+    width: 50%;
+    margin: auto;
+    padding-top: 200px;
    
 
 }
+
 .logo{
     font-size: 30px;
     color: #fff;
@@ -28,7 +47,7 @@ body{
     
 }
 .spanLogo{
-    color: #ffb3b3;
+    color: #f7c3c3;
 }
 #blog{
     text-align: center;

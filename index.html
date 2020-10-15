@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" id="html">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,53 +11,51 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
-
-<body>
-
+<body id="body">
+    
   <header id="home">
-
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <h2 class="logo">us<span class="spanLogo">One</span></h2>
-      <button class="navbar-toggler" type="button" data-toggle="collapse">
+    <nav class="navbar navbar-expand-lg navbar-light bg fixed-top">
+      <h2 class=" navbar-brand logo text-white">us<span class="spanLogo">One</span></h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+    
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto ">
-          <li class="nav-item active col-md-3">
-            <a class="nav-link text-white" href="#home">Home<span class="sr-only">(current)</span></a>
-
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
-
-          <li class="nav-item active col-md-3">
+          <li class="nav-item">
             <a class="nav-link text-white" href="#blog">Blog</a>
           </li>
-
-          <li class="nav-item active col-md-3">
-            <a class="nav-link text-white" href="#contact">contact</a>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
           </li>
+          
         </ul>
+        <div class="form-inline my-2 col-md-3 ">
+          <i class="nav-item social-icon fab fa-twitter sicon" ></i>
+       <i class="nav-item social-icon text-white fab fa-facebook sicon" ></i>
+       <i class="nav-item social-icon text-white fab fa-instagram sicon" ></i>
+       <i class="nav-item social-icon text-white fas fa-envelope  sicon" ></i>
+       <a href="#blog" class="nav-item  active btn btn-light">create post</a>
+        </div>
       </div>
-      <div class="col-md-2">
-        <i class="social-icon fab fa-twitter sicon"></i>
-        <i class="social-icon fab fa-facebook sicon"></i>
-        <i class="social-icon fab fa-instagram sicon"></i>
-        <i class="social-icon fas fa-envelope  sicon"></i>
-      </div>
-      <a href="form.html" class="btn btn-light">create post</a>
     </nav>
-    <div class="headerContent">
-        <h1>WELCOME TO <span class="logo">us</span><span class="spanLogo" style="font-family: 'Sansita Swashed', cursive;">One</span> BLOG</h1>
-        <p>Create your own content with us.</p>
-        <button type="button" class="btn btn-light btn-lg"><i class="fab fa-apple "></i> READ MORE</button>
-        <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play "></i> READ
-          MORE</button>
-      </div>
+
+   <div class="headerContent">
+      <h1>WELCOME TO <span class="">us</span><span class="spanLogo">One</span>BLOG</h1>
+      <p>Create your own content with us.</p>
+      <button type="button" class="btn btn-light btn-lg"><i class="fab fa-apple "></i> READ MORE</button>
+      <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play "></i> READ MORE</button>
+   </div>
+   
     
 
 
   </header>
   <section id="blog">
-    <h3>LATEST POST</h3>
+    <h3>LATEST POSTS</h3>
     <div class="card-deck">
       <div class="card">
         <img src="images/post1.png" class="card-img-top" alt="...">
@@ -86,9 +83,65 @@
           <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
         </div>
       </div>
-    </div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/post4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/post5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/post6.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural than the first to show that equal height action.</p>
+            <a href="#" class="btn colorbtn text-white" style="background-color: #ffb3b3;">VIEW</a>
+          </div>
+        </div>
+      </div>
   </section>
-
+<footer>
+  <div class="footerContent">
+    <div class="row">
+    <div class="col md-3">
+      <h3>About</h3>
+      <p></p>
+    </div>
+    <div class="col md-3">
+      <h3>Nagivation</h3>
+      <p></p>
+    </div>
+    <div class="col md-3">
+      <h3>Resources</h3>
+      <p></p>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col md-3">
+        <h3>Follow us</h3>
+        <p></p>
+      </div>
+      <div class="col md-3">
+        <h3>Our Apps</h3>
+        <p></p>
+      </div>
+      <div class="col md-3">
+        <h3>Subscribe</h3>
+        <p></p>
+      </div>
+      </div>
+  </div>
+</footer>
 </body>
 
 </html>
