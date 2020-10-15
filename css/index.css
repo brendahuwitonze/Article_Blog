@@ -17,7 +17,9 @@
     overflow-x: hidden;
     height: 100vh;
 }
-
+.bg{
+    background-color: #ee8888;
+}
 
 body{
     font-family: 'Kumbh Sans', sans-serif;
@@ -45,7 +47,7 @@ body{
     
 }
 .spanLogo{
-    color: #ffb3b3;
+    color: #f7c3c3;
 }
 #blog{
     text-align: center;
@@ -62,3 +64,91 @@ h3{
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+/**********************************/
+
+.authBlog{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+
+
+.blogPos{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey; 
+}
+
+div.form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.jumbotron {
+    background-color:#ffefef;
+    width: 800px;
+    margin: auto;
+}
+
+.artic{
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+hr{
+    background-color: grey;
+}
+
+.required {
+    color: red;
+    font-size: 20px;
+}
+
+form input[required=required]:after {
+    color: red;
+    content: " *";
+}
+
+.form p {
+    font-family: serif;
+}
+
+::placeholder {
+    font-style: italic;
+    font-family: initial;
+}
+
+
+
+.thar {
+    background-color: rgba(128, 128, 128, 0.473);
+    width: 200px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: #ff9999;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+}
+ .thar:hover {
+     background-color:  #ff9999;
+ }
+
+input[type=text]{
+    border: 1px solid black;
+} 
+
