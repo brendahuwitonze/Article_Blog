@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+  }
+  .foot {
+      width:100px;
+      margin-left: -5px;
+      border: none;
+      height: 36px;
+      background-color: #ffb3b3;
+  }
+  .listul li a {
+    margin-left: 50px;
+    color:#ffb3b3 ;
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+  }
+  .inpFooter {
+      height:36px;
+  }
+  .copyright {
+    color: rgb(114, 112, 112);
+    border-top: 1px solid grey;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .Iconss .fas {
+      color:#ffb3b3 ;
+  }
+  .Iconss .far {
+    color:#ffb3b3 ;
+}
