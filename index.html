@@ -7,63 +7,219 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
-  <script src="https://kit.fontawesome.com/83d474e45f.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
+
+
+  <title>usOne</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
-  <title>Footer</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel="icon" href="images/favicon.ico">
+
 </head>
 
-<body>
-  <footer>
-    <div class="card mb-3" style="background-color: rgb(59, 58, 58);">
-      <div class="card-body">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h5 class="card-title logo">us<span class="spanLogo">One</span></h5>
-              <p class="card-text" style="color: rgb(182, 179, 179); font-family: 'Kite One', sans-serif;">It is an
-                article-Blog which is a web-based application where an
-                individual can write and post articles about a certain topic.</p>
-            </div>
-            <div class="col">
-              <h5 class="card-title"
-                style="margin-left: 88px; color: white; font-weight: bold;font-family: 'Piazzolla', serif;">Follow Us
-              </h5>
-              <ul class="listul">
-                <li><a href="https://github.com/tharcissie/Article_Blog">Github</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
-              </ul>
-            </div>
-            <div class="col">
-              <h5 class="card-title" style="color: white; font-weight: bold;font-family: 'Piazzolla', serif;">Stay
-                Updated</h5>
-              <input type="text" name="" id="email" class="inpFooter" placeholder="Enter Email Addrress">
-              <button type="submit" class="foot" class="btn btn-secondary">Subscribe</button>
-              <br>
-              <br>
-              <div class="Iconss">
-                <p><a href="#"><i class="fas fa-map-marker-alt fa-lg"></i></a> &nbsp; &nbsp; &nbsp;
-                  <a href="#"><i class="fas fa-phone fa-lg"></i></a> &nbsp; &nbsp; &nbsp;
-                  <a href="#"><i class="far fa-comment-dots fa-lg"></i></a> &nbsp; &nbsp; &nbsp;
-                  <a href="#"><i class="fas fa-globe fa-lg"></i></a></p>
-              </div>
-            </div>
-          </div>
+<body id="body">
+
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg fixed-top">
+      <h2 class=" navbar-brand logo text-white">us<span class="spanLogo">One</span></h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" id="homep" href="#homepage">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#formpage">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 col-md-3 ">
+          <i class="nav-item social-icon fab fa-twitter sicon"></i>
+          <i class="nav-item social-icon text-white fab fa-facebook sicon"></i>
+          <i class="nav-item social-icon text-white fab fa-instagram sicon"></i>
+          <i class="nav-item social-icon text-white fas fa-envelope  sicon"></i>
+          <a id="create" class="nav-item  active btn btn-light">create post</a>
         </div>
-        <div class="text-center">
-          <p class="card-text copyright"><small>&copy; Copyright 2020 | usOne</small></p>
+      </div>
+    </nav>
+  </header>
+
+  <div id="homepage">
+    <div class="headerContent">
+      <h1>WELCOME TO <span class="logo1">us</span><span class="spanLogo1">One&nbsp;</span>BLOG</h1>
+      <p>Create your own content with us.</p>
+      <button type="button" class="btn btn-light btn-lg"><i class="fab fa-apple "></i> CREATE</button>
+      <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play "></i> READ MORE</button>
+    </div>
+    <section id="blog">
+      <h3>LATEST POSTS</h3>
+      <div class="row posts justify-content-center">
+        
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="formpage" style="display: none;">
+
+    <div class="container p-5">
+      <div class="jumbotron formpage">
+        <h1 class="artic">CREATE AN ARTICLE</h1>
+        <hr>
+        <div class="form">
+          <form>
+            <h2 class="authBlog">Author Details</h2>
+            <p> Please enter your contact details, so we can give you proper credit to this blog post.</p>
+            <div class="form-group">
+              <label for="author" style="font-family: serif;">Full Name</label><span class="required">*</span>
+              <input type="text" class="form-control" id="author" placeholder="Enter name...">
+            </div>
+
+            <div class="form-group">
+              <label for="bio" style="font-family: serif;">Short Author
+                Bio</label><span class="required">*</span>
+              <textarea style="  border: 1px solid rgb(163, 160, 160)" class="form-control" id="bio" rows="3"
+                placeholder="Enter bio..."></textarea>
+              <p> <small>Please keep it bellow 300 characters </small> </p>
+            </div>
+            <h2 class="blogPos">Create a Blog Post</h2>
+            <p>Please submit your guest blog by using the fields below.</p>
+
+            <div class="form-group">
+              <label for="title" style="font-family: serif;">Post Title</label><span class="required">*</span>
+              <input type="text" class="form-control" id="title" placeholder="Enter title...">
+            </div>
+            <div class="form-group">
+              <label for="detail" style="font-family: serif;">Post
+                Content</label><span class="required">*</span>
+              <textarea style="  border: 1px solid rgb(163, 160, 160)" class="form-control" id="detail" rows="6"
+                placeholder="Enter content..."></textarea>
+            </div>
+            <div class="form-group">
+              <label for="image" style="font-family: serif;">Featured image</label><span class="required">*</span>
+              <input type="file" class="form-control-file" id="image" style="color: grey;">
+              <!-- <p> <small>Please make the dimensions are (500 x 250px)</small> </p> -->
+            </div>
+
+            <br>
+            <div style="text-align: center;">
+              <button type="button" id="button" class="thar" class="btn btn-secondary">SUBMIT</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
+
+  </div>
+
+
+
+  <div id="details" style="display: none;">
+    <div class="jumbotron">
+      <div class="card mb-3">
+        <img id="imagejumb" class="card-img-top image-for-card" src="">
+        <div class="card-body">
+          <div class="text-center">
+            <h2 class="card-title p-5" ><strong id="story-title"></strong></h2>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card mb-3">
+                  <div class="card-body pt-5 col-lg-8 mx-auto justify-content-center">
+                    <h5 class="card-title bio"></h5>
+                    <p class="card-text detail mx-auto">
+                    </p> <br>
+                    <p class="text-small">Author: <span class="text-muted author"></span> </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <p class="card-text"><small class="text-muted">"One’s destination is never a place, but a new way of seeing
+              things."</small></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+ 
+    <footer>
+      <div class="card footer mb-3" style="background-color: rgb(248, 226, 226);">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title logo2">us<span class="spanLogo2">One</span></h5>
+                <p class="card-text text-black-50" style=" font-family: 'Kite One', sans-serif;">It is an
+                  article-Blog which is a web-based application where an
+                  individual can write and post articles about a certain topic.</p>
+              </div>
+              <div class="col">
+                <h5 class="card-title text-black-50"
+                  style="margin-left: 88px; font-weight: bold;font-family: 'Piazzolla', serif;">Follow Us
+                </h5>
+                <ul class="listul">
+                  <li><a href="https://github.com/tharcissie/Article_Blog">Github</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <h5 class="card-title text-black-50" style=" font-weight: bold;font-family: 'Piazzolla', serif;">Stay
+                  Updated</h5>
+                <input type="text" name="" id="email" class="inpFooter" placeholder="Enter Email Addrress">
+                <button type="submit" class="foot" class="btn btn-secondary">Subscribe</button>
+                <br>
+                <br>
+                <div class="Iconss">
+                  <p><a href="#"><i class="fas fa-map-marker-alt fa-lg" style="color: black;"></i></a> &nbsp; &nbsp; &nbsp;
+                    <a href="#"><i class="fas fa-phone fa-lg"style="color: black;"></i></a> &nbsp; &nbsp; &nbsp;
+                    
+                    <a href="#"><i class="fas fa-globe fa-lg"style="color: black;"></i></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <p class="card-text copyright"><small>&copy; Copyright 2020 | usOne</small></p>
   </footer>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-storage.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
   <script src="js/index.js"></script>
 </body>
 
