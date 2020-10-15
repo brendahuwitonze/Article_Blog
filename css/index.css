@@ -29,10 +29,20 @@ body {
     color: #fff;
     font-family: 'Sansita Swashed', cursive;
 }
+<<<<<<< HEAD
+.spanLogo{
+    color: #ffb3b3;
+    font-weight: bold;
+}
+span{
+    font-family: 'Sansita Swashed', cursive;
+    
+=======
 
 .spanLogo {
     color: #ffb3b3;
 
+>>>>>>> 4f90b9636ec0f32ddd6db4115cc9ab79cf842a88
 }
 
 #blog {
