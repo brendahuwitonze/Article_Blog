@@ -75,7 +75,7 @@
 
 
            
-            $("div.posts").append("<div class='card col-lg-3 m-3'><img  src='" + data.val().Url + "' class='card-img-top i' alt='...'><div class='card-body'><h5 class='card-title'>" + titl + "</h5><p class='card-text'>" + bi +"</p><p class='text-small text-muted text-left'>Author: <span>" + aut +"  </span></p><a href='#datails' class='btn colorbtn text-white' style='background-color: #ffb3b3;'>VIEW</a></div></div>");
+            $("div.posts").append("<div class='card col-lg-3 m-3'><img  src='" + data.val().Url + "' class='card-img-top i' alt='...'><div class='card-body'><h5 class='card-title'>" + titl + "</h5><p class='card-text text-center'>" + bi +"</p><p class='text-small text-muted text-left'>Author: <span>" + aut +"  </span></p><a href='#datails' class='btn colorbtn text-white' style='background-color: #ffb3b3;'>VIEW</a></div></div>");
            
             $(".colorbtn").last().click(function () {
                 $('#details').show();

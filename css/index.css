@@ -217,11 +217,7 @@ input[type=text] {
     border: 1px solid rgb(163, 160, 160);
 }
 
-<<<<<<< HEAD
-/*********************Footer**************/
 
-
-=======
 .card-img-top {
     width: 100%;
     height: 10vw;
@@ -255,12 +251,9 @@ h5{
     height: 30vw;
     object-fit: cover;
 }
-<<<<<<< HEAD
 
->>>>>>> 413c5028ffc765c03e81919558cd40735a0a639b
-=======
 #create:hover{
      background-color: #f73535;
      color: white;
 }
->>>>>>> e275f5d2c4c60fe6cd3115fc48a0256dba167c6b
+
