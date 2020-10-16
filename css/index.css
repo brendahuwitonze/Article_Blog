@@ -21,7 +21,7 @@ footer ul {
     font-weight: bold;
   }
   nav li a:hover {
-    color:#3f0202 !important ;
+    color:red !important ;
     font-family: 'Kite One', sans-serif;
     font-weight: bold;
   }
