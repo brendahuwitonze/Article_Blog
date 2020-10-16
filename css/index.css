@@ -21,7 +21,7 @@ footer ul {
     font-weight: bold;
   }
   nav li a:hover {
-    color:#3f0202 !important ;
+    color:red !important ;
     font-family: 'Kite One', sans-serif;
     font-weight: bold;
   }
@@ -255,5 +255,12 @@ h5{
     height: 30vw;
     object-fit: cover;
 }
+<<<<<<< HEAD
 
 >>>>>>> 413c5028ffc765c03e81919558cd40735a0a639b
+=======
+#create:hover{
+     background-color: #f73535;
+     color: white;
+}
+>>>>>>> e275f5d2c4c60fe6cd3115fc48a0256dba167c6b
