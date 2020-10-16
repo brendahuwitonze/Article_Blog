@@ -1,5 +1,48 @@
+footer ul {
+    list-style-type: none;
+  }
+  .foot {
+      width:100px;
+      margin-left: -5px;
+      border: none;
+      height: 36px;
+      background-color: #ffb3b3;
+  }
+  .listul li a {
+    margin-left: 50px;
+    color:#8a8989 ;
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+  }
+  .listul li a:hover {
+    margin-left: 50px;
+    color:#f73535 ;
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+  }
+  nav li a:hover {
+    color:#3f0202 !important ;
+    font-family: 'Kite One', sans-serif;
+    font-weight: bold;
+  }
+  .inpFooter {
+      height:36px;
+  }
 
-header {
+  .copyright {
+    color: rgb(114, 112, 112);
+    border-top: 1px solid grey;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+   .fas {
+      color:#ffb3b3!important ;
+  }
+  .Iconss .far {
+    color:#ffb3b3 ;
+}
+
+.headerContent {
     background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../images/homepage2.png);
     background-position: center center;
     background-size: cover;
@@ -10,41 +53,65 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-.sicon {
-    padding: 1px;
-
-    color: #fff;
-
-}
-
+.sicon {padding: 1px; margin: 8px; color: #fff; }
 .headerContent {
     text-align: center;
     color: #fff;
+    padding-top: 200px;
 
 }
 
 .logo {
 
-    font-size: 30px;
+    font-size: 30px!important;
+    color: #fff;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.spanLogo1 {
+    color: #ffb3b3;
+    font-size: 50px!important;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+.logo2{
+
+    font-size: 40px!important;
+    color: rgb(199, 199, 199);
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.spanLogo2 {
+    color: #f37676;
+    font-size: 50px!important;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+.logo1{
+
+    font-size: 45px!important;
     color: #fff;
     font-family: 'Sansita Swashed', cursive;
 }
 
 .spanLogo {
     color: #ffb3b3;
+    font-size: 35px!important;
+    font-family: 'Sansita Swashed', cursive;
 
 }
+
 
 #blog {
     text-align: center;
     padding-top: 60px;
-    margin: 100px 100px;
+    margin: 0 100px 100px;
 }
 
 h3 {
     padding-bottom: 40px;
 }
-
+.bg {background-color: #EE8888; }
 .banner {
     -webkit-background-size: cover;
     background-size: cover;
@@ -81,7 +148,7 @@ form {
     text-align: left;
 }
 
-.jumbotron {
+.formpage {
     background-color: #f2f2f2;
     width: 540px;
     margin: auto; 
@@ -89,7 +156,7 @@ form {
     margin-bottom: 20px;
 }
 
-#backgr{
+#formpage{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://res.cloudinary.com/zilfa/image/upload/v1602698168/lum3n--RBuQ2PK_L8-unsplash_iqoksg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -150,6 +217,43 @@ input[type=text] {
     border: 1px solid rgb(163, 160, 160);
 }
 
+<<<<<<< HEAD
 /*********************Footer**************/
 
 
+=======
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+
+h2{
+    color: #ff667d;
+    font-size: 20px;
+}
+h5{
+    color:#ff667d;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    padding: 20px;
+}
+.jumbotron{
+    padding: 0;
+    padding-left: 0;
+}
+.image-for-card{
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+>>>>>>> 413c5028ffc765c03e81919558cd40735a0a639b
